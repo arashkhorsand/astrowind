@@ -13,6 +13,7 @@ export const headerData = {
           text: 'SEO-Packages',
           href: getPermalink('/pricing'),
         },
+      ], // ✅ Closed the nested "links" array properly
     },
     {
       text: 'Services',
@@ -22,13 +23,12 @@ export const headerData = {
       text: 'Contact',
       href: getPermalink('/contact'),
     },
-    
     {
       text: 'About us',
       href: getPermalink('/about'),
     }
   ]
-  };
+};
 
 export const footerData = {
   links: [
