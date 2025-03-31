@@ -6,11 +6,11 @@ export const headerData = {
       text: 'Packages',
       links: [
         {
-          text: 'SEM-Packages',
+          text: 'SEM',
           href: getPermalink('/pricing'),
         },
         {
-          text: 'SEO-Packages',
+          text: 'SEO',
           href: getPermalink('/pricing'),
         },
       ], // ✅ Closed the nested "links" array properly
