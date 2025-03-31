@@ -4,7 +4,15 @@ export const headerData = {
   links: [
     {
       text: 'Packages',
-      href: getPermalink('/pricing'),
+      links: [
+        {
+          text: 'SEM-Packages',
+          href: getPermalink('/pricing'),
+        },
+        {
+          text: 'SEO-Packages',
+          href: getPermalink('/pricing'),
+        },
     },
     {
       text: 'Services',
