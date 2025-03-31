@@ -13,19 +13,15 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- HeroText Widget ******************* -->
-
   <HeroText
     tagline="Pricing"
     title="Adzstorm Pricing for Every Journey"
     subtitle="Choose the perfect plan that aligns with your Marketing goals."
   />
 
-  <!-- Pricing Widget ******************* -->
-
   <Prices
-   title="Our Plans"
-   subtitle="Only pay for what you need"
+    title="Our Plans"
+    subtitle="Only pay for what you need"
     prices={[
       {
         title: 'Basic (Starter)',
@@ -34,7 +30,7 @@ const metadata = {
         period: 'per month',
         items: [
           {
-            description: '1 Google Ads campaigns (Search Network focus)',
+            description: '1 Google Ads campaign (Search Network focus)',
           },
           {
             description: 'Google Analytics setup; track form submissions (lead goals) and basic call extensions',
@@ -107,24 +103,23 @@ const metadata = {
           href: '#',
         },
       },
-
       {
         title: 'Enterprise',
         subtitle: 'Best Choice for Enterprise Businesses',
-        price: ,
-        period: 'Call for Price',
+        price: 'Call for Price',
+        period: '',
         items: [
           {
-            description: '',
+            description: 'Tailored ad strategies with dedicated campaign managers',
           },
           {
-            description: '',
+            description: 'Custom campaign architecture and reporting dashboards',
           },
           {
-            description: '',
+            description: 'Full-service support including creative production',
           },
           {
-            description: '',
+            description: 'Priority onboarding and SLA-backed support',
           },
         ],
         callToAction: {
@@ -135,8 +130,6 @@ const metadata = {
       },
     ]}
   />
-
-  <!-- Features3 Widget ************** -->
 
   <Features3
     title="Price-related features"
@@ -176,8 +169,6 @@ const metadata = {
     ]}
     classes={{ container: 'max-w-5xl' }}
   />
-
-  <!-- Steps Widget ****************** -->
 
   <Steps
     title="A guided journey from plans to creativity"
@@ -219,8 +210,6 @@ const metadata = {
     }}
   />
 
-  <!-- FAQs Widget ******************* -->
-
   <FAQs
     title="Pricing FAQs"
     subtitle="Choosing the right plan is important, and we're here to answer your questions. If you have queries about our pricing options, you're in the right place."
@@ -253,8 +242,6 @@ const metadata = {
       },
     ]}
   />
-
-  <!-- CallToAction Widget *********** -->
 
   <CallToAction
     title="Ready to boost your projects?"
